@@ -1,0 +1,31 @@
+# Display the current working directory
+pwd
+
+# List all files and directories in the current directory
+ls
+
+# Filter the list of items in the current directory for files with '.c' extension
+ls -l | grep "\.c$"
+
+# Change directory to a specific folder
+cd folder
+
+# List the contents of the new directory to confirm the directory change
+ls
+
+# Display the number of files in the directory
+ls | wc -l
+
+# Use echo to output a custom message
+echo "This is a test message from the batch file."
+
+# Try a pipeline that involves sorting filenames
+ls | sort
+
+# Use grep to find a specific file type
+ls | grep ".h$"
+
+# Finish with an exit command (optional if EOF behaves as exit)
+exit
+
+

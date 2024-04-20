@@ -1,0 +1,7 @@
+make newshell
+
+to run:
+./newshell batchfile
+
+in interactivce mode
+./newshell
